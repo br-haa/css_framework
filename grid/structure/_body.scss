@@ -1,0 +1,77 @@
+.header {
+  padding-top: 20px;
+  margin-top: -10px;
+  position:relative;
+  width: 100%;
+  margin-bottom: $default-gap;
+}
+
+.grid-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    background-color: snow;
+    color: rgb(73, 73, 73);
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    margin-bottom: 1vw;
+    width: 80%;
+  }
+  
+  .grid-row-full {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    margin-bottom: 1vw;
+    width: 100.8%;
+    margin-left: -7px;
+  }
+
+  .c-gaped {
+    grid-column-gap: $default-gap;
+  }
+  
+  .r-gaped {
+    grid-row-gap: $default-gap;
+  }
+  
+  .gaped {
+    grid-row-gap: $default-gap;
+    grid-column-gap: $default-gap;
+  }
+  
+  
+
+  
+  @media (max-width: $medium-size){
+    .grid-row {
+        padding: 0px 1vw 0px 1vw;
+        width: 95%;
+        box-sizing: border-box;
+      }
+      .grid-row-full{
+        padding: 0px 1vw 0px 1vw;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .grid-body {
+        min-width: 320px;
+      }
+
+      .m_c-gaped {
+        grid-column-gap: $default-gap;
+      }
+      
+      .m_r-gaped {
+        grid-row-gap: $default-gap;
+      }
+      
+      .m_gaped {
+        grid-row-gap: $default-gap;
+        grid-column-gap: $default-gap;
+      }
+  }

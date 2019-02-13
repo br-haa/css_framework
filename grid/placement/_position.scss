@@ -1,0 +1,221 @@
+
+
+.left-top,
+.l-t,
+.top-left,
+.t-l {
+  justify-self: start;
+  align-self: start;
+}
+
+.left-bottom,
+.l-b,
+.bottom-left,
+.b-l {
+  justify-self: start;
+  align-self: end;
+}
+
+.left-middle,
+.l-m,
+.middle-left,
+.m-l {
+  justify-self: start;
+  align-self: center;
+}
+
+.middle-center,
+.m-c,
+.center-middle,
+.c-m {
+  justify-self: center;
+  align-self: center;
+}
+
+.right-middle,
+.r-m,
+.middle-right,
+.m-r {
+  justify-self: end;
+  align-self: center;
+}
+
+.right-top,
+.r-t,
+.top-right,
+.t-r {
+  justify-self: end;
+  align-self: start;
+}
+
+.right-bottom,
+.r-b,
+.bottom-right,
+.b-r {
+  justify-self: end;
+  align-self: end;
+}
+
+.center-top,
+.c-t,
+.top-center,
+.t-c {
+  justify-self: center;
+  align-self: start;
+}
+
+.center-bottom,
+.c-b,
+.bottom-center,
+.b-c {
+  justify-self: center;
+  align-self: end;
+}
+
+@media (max-width: $medium-size) {
+  .m_left-top,
+  .m_l-t,
+  .m_top-left,
+  .m_t-l {
+    justify-self: start;
+    align-self: start;
+  }
+
+  .m_left-bottom,
+  .m_l-b,
+  .m_bottom-left,
+  .m_b-l {
+    justify-self: start;
+    align-self: end;
+  }
+
+  .m_left-middle,
+  .m_l-m,
+  .m_middle-left,
+  .m_m-l {
+    justify-self: start;
+    align-self: center;
+  }
+
+  .m_middle-center,
+  .m_m-c,
+  .m_center-middle,
+  .m_c-m {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .m_right-middle,
+  .m_r-c,
+  .m_middle-right,
+  .m_c-r {
+    justify-self: end;
+    align-self: center;
+  }
+
+  .m_right-top,
+  .m_r-t,
+  .m_top-right,
+  .m_t-r {
+    justify-self: end;
+    align-self: start;
+  }
+
+  .m_right-bottom,
+  .m_r-b,
+  .m_bottom-right,
+  .m_b-r {
+    justify-self: end;
+    align-self: end;
+  }
+
+  .m_center-top,
+  .m_c-t,
+  .m_top-center,
+  .m_t-c {
+    justify-self: center;
+    align-self: start;
+  }
+
+  .m_center-bottom,
+  .m_c-b,
+  .m_bottom-center,
+  .m_b-c {
+    justify-self: center;
+    align-self: start;
+  }
+}
+
+@media (max-width: $small-size) {
+  .s_left-top,
+  .s_l-t,
+  .s_top-left,
+  .s_t-l {
+    justify-self: start;
+    align-self: start;
+  }
+
+  .s_left-bottom,
+  .s_l-b,
+  .s_bottom-left,
+  .s_b-l {
+    justify-self: start;
+    align-self: end;
+  }
+
+  .s_left-middle,
+  .s_l-m,
+  .s_middle-left,
+  .s_m-l {
+    justify-self: start;
+    align-self: center;
+  }
+
+  .s_middle-center,
+  .s_m-c,
+  .s_center-middle,
+  .s_c-m {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .s_right-middle,
+  .s_r-c,
+  .s_middle-right,
+  .s_c-r {
+    justify-self: end;
+    align-self: center;
+  }
+
+  .s_right-top,
+  .s_r-t,
+  .s_top-right,
+  .s_t-r {
+    justify-self: end;
+    align-self: start;
+  }
+
+  .s_right-bottom,
+  .s_r-b,
+  .s_bottom-right,
+  .s_b-r {
+    justify-self: end;
+    align-self: end;
+  }
+
+  .s_center-top,
+  .s_c-t,
+  .s_top-center,
+  .s_t-c {
+    justify-self: center;
+    align-self: start;
+  }
+
+  .s_center-bottom,
+  .s_c-b,
+  .s_bottom-center,
+  .s_b-c {
+    justify-self: center;
+    align-self: start;
+  }
+}

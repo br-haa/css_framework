@@ -1,0 +1,119 @@
+
+
+.l-hide {
+    @media (min-width: $medium-size) {
+      display: none;
+    }
+}
+  
+.m_hide{
+    @media (max-width: $medium-size) {
+        display: none;
+      }
+}
+
+
+    @media (max-width: $small-size ) {
+      .s_hide{
+    display: none;
+  }
+    }
+
+
+
+.hide-0-0-0{
+    @media (min-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $small-size ) {
+        display: none;
+        }
+}
+
+.hide-0-0-1{
+    @media (min-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $small-size ) {
+        display: block;
+        }
+}
+
+.hide-0-1-1{
+    @media (min-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $small-size ) {
+        display: block;
+        }
+}
+
+.hide-1-1-1{
+    @media (min-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $small-size ) {
+        display: block;
+        }
+}
+
+.hide-1-1-0{
+    @media (min-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $small-size ) {
+        display: none;
+        }
+}
+
+.hide-1-0-0{
+    @media (min-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $small-size ) {
+        display: none;
+        }
+}
+
+.hide-1-0-1{
+    @media (min-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $small-size ) {
+        display: block;
+        }
+}
+
+.hide-0-1-0{
+    @media (min-width: $medium-size) {
+        display: none;
+      }
+    @media (max-width: $medium-size) {
+        display: block;
+      }
+    @media (max-width: $small-size ) {
+        display: none;
+        }
+}
+
