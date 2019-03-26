@@ -1,3 +1,13 @@
 @mixin grid-structure {
   display: grid;
 }
+
+@mixin second-width {
+  width: $second-width;
+  @media (max-width: $medium-size) {
+    width: $second-width-mid;
+  }
+  @media (max-width: $small-size) {
+    width: $second-width-small;
+  }
+}
