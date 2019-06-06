@@ -1,104 +1,104 @@
  .l-hide {
     @media (min-width: $medium-size) {
-      display: none;
+      display: none !important;
     }
 }
 .m_hide{
-    @media (max-width: $medium-size) {
-        display: none;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+        display: none !important;
       }
 }
 .s_hide{
     @media (max-width: $small-size ) {
-    display: none;
+    display: none !important;
     }
 }
 .hide-0-0-0{
     @media (min-width: $medium-size) {
-        display: none;
+        display: none !important;
       }
-    @media (max-width: $medium-size) {
-        display: none;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+        display: none !important;
       }
     @media (max-width: $small-size ) {
-        display: none;
+        display: none !important;
         }
 }
 .hide-0-0-1{
     @media (min-width: $medium-size) {
-        display: none;
+        display: none !important;
       }
-    @media (max-width: $medium-size) {
-        display: none;
+    @media (max-width: $medium-size) and (min-width: $small-size) {
+        display: none !important;
       }
     @media (max-width: $small-size ) {
-        display: initial;
+
         }
 }
 .hide-0-1-1{
     @media (min-width: $medium-size) {
-        display: none;
+        display: none !important;
       }
     @media (max-width: $medium-size) {
-        display: initial;
+
       }
-    @media (max-width: $small-size ) {
-        display: initial;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+
         }
 }
 .hide-1-1-1{
     @media (min-width: $medium-size) {
-        display: initial;
+
       }
-    @media (max-width: $medium-size) {
-        display: initial;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+
       }
     @media (max-width: $small-size ) {
-        display: initial;
+
         }
 }
 .hide-1-1-0{
     @media (min-width: $medium-size) {
-        display: initial;
+
       }
-    @media (max-width: $medium-size) {
-        display: initial;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+
       }
     @media (max-width: $small-size ) {
-        display: none;
+        display: none !important;
         }
 }
 .hide-1-0-0{
     @media (min-width: $medium-size) {
-        display: initial;
+
       }
-    @media (max-width: $medium-size) {
-        display: none;
+  @media (max-width: $medium-size) and (min-width: $small-size) {
+        display: none !important;
       }
     @media (max-width: $small-size ) {
-        display: none;
+        display: none !important;
         }
 }
 .hide-1-0-1{
     @media (min-width: $medium-size) {
-        display: initial;
+
       }
-    @media (max-width: $medium-size) {
-        display: none;
+    @media (max-width: $medium-size) and (min-width: $small-size) {
+        display: none !important;
       }
     @media (max-width: $small-size ) {
-        display: initial;
+
         }
 }
 .hide-0-1-0{
     @media (min-width: $medium-size) {
-        display: none;
+        display: none !important;
       }
     @media (max-width: $medium-size) {
-        display: initial;
+
       }
     @media (max-width: $small-size ) {
-        display: none;
+        display: none !important;
         }
 }
 
