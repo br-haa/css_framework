@@ -7,12 +7,12 @@
 
 .structure {
   display: grid;
-  grid-template-columns: repeat(var(--l-column), 1fr);
+  grid-template-columns: repeat(var(--l_column), 1fr);
   @media (max-width: $medium-size) {
-    grid-template-columns: repeat(var(--m-column), 1fr);
+    grid-template-columns: repeat(var(--m_column), 1fr);
   }
   @media (max-width: $small-size) {
-    grid-template-columns: repeat(var(--s-column), 1fr);
+    grid-template-columns: repeat(var(--s_column), 1fr);
   }
 }
 

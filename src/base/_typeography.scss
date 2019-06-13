@@ -3,7 +3,7 @@ h1, h2, h3, h4{
   font-weight: bold;
 }
 
-p{
+p,ol,ul,input,textarea{
   font-family: $sans-serif;
 }
 
@@ -28,37 +28,79 @@ h1 {
     font-size: 1.5vw;
     margin: 0px;
   }
-  
-  p {
-    font-size: 1.5vw;
+
+h5 {
+  font-size: 1.3vw;
+  margin: 0px;
+}
+
+  p,ol,ul,input,textarea {
+    font-size: 1.1vw;
     margin: 0px;
   }
 
+@media (max-width: $medium-size){
 
-  @media (max-width: 640px){
+  h1 {
+    font-size: 6vw;
+    margin: 0px;
+  }
+
+  h2 {
+    font-size: 5vw;
+    margin: 0px;
+  }
+
+  h3 {
+    font-size: 4vw;
+    margin: 0px;
+  }
+
+  h4 {
+    font-size: 3vw;
+    margin: 0px;
+  }
+  h5 {
+    font-size:  2.5vw;
+    margin: 0px;
+  }
+
+  p,ol,ul,input,textarea {
+    font-size: 2vw;
+    margin: 0px;
+  }
+
+}
+
+
+  @media (max-width: $small-size){
 
     h1 {
-        font-size: 6vw;
+        font-size: 8vw;
         margin: 0px;
       }
       
       h2 {
-        font-size: 5vw;
+        font-size: 7vw;
         margin: 0px;
       }
       
       h3 {
-        font-size: 4vw;
+        font-size: 6vw;
         margin: 0px;
       }
       
       h4 {
-        font-size: 3vw;
+        font-size: 5vw;
         margin: 0px;
       }
-      
-      p {
-        font-size: 3vw;
+    h5 {
+      font-size: 4.5vw;
+      margin: 0px;
+    }
+
+      p,ol,ul,input {
+        font-size: 4vw;
         margin: 0px;
       }
 
