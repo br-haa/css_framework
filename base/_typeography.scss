@@ -3,7 +3,7 @@ h1, h2, h3, h4{
   font-weight: bold;
 }
 
-p,ol,ul,input,textarea{
+p,ol,ul,input,textarea,button,a{
   font-family: $sans-serif;
 }
 
@@ -34,11 +34,15 @@ h5 {
   margin: 0px;
 }
 
-  p,ol,ul,input,textarea {
+  p,ol,ul,input,textarea,button {
     font-size: 1.1vw;
     margin: 0px;
   }
 
+  a{
+    text-decoration: none;
+    font-size: inherit;
+  }
 @media (max-width: $medium-size){
 
   h1 {
@@ -65,7 +69,7 @@ h5 {
     margin: 0px;
   }
 
-  p,ol,ul,input,textarea {
+  p,ol,ul,input,textarea,button {
     font-size: 2vw;
     margin: 0px;
   }
@@ -99,7 +103,7 @@ h5 {
       margin: 0px;
     }
 
-      p,ol,ul,input {
+      p,ol,ul,input,textarea,button {
         font-size: 4vw;
         margin: 0px;
       }
