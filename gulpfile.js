@@ -2,7 +2,6 @@
 
 
 // Load requirements
-
 const gulp = require('gulp');
 const del = require('del');
 
@@ -28,16 +27,17 @@ function test() {
 
 
 // SASS Processing
-
 var plugins = [
     autoprefixer({browsers: ['last 1 version']}),
     cssnano()
 ];
+
+// Process Core CSS and place the minified version in the build directory
 function css() {
     return gulp
         .src('./src/**/*.scss')
         .pipe(plumber())
-        .pipe(sass({ outputStyle: "nested"}))
+        .pipe(sass({ outputStyle: 'compressed'})) //nested or
         .pipe(gulp.dest('./build/assets/css/'))
 
         .pipe(rename({ suffix: ".min" }))
@@ -47,11 +47,12 @@ function css() {
 
 
 
-// Watch files
+// Watch a the .scss files for changes during theme development
+// at this time, we do not have a sample project file to view
+// in the browser, so you will need to just take my word for it
 function watchFiles() {
     gulp.watch("./src/**/*", css);
 }
-
 
 
 // Complex Tasks
