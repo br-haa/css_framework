@@ -1,42 +1,4 @@
 {
-  "name": "haa-css-core",
-  "version": "1.0.0",
-  "description": "Grids Framework by Hoglund Advertising",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HoglundAnalytics/haa-css-core.git"
-  },
-  "keywords": [
-    "grids",
-    "core",
-    "css"
-  ],
-  "author": "benjamin russell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HoglundAnalytics/haa-css-core/issues"
-  },
-  "homepage": "https://github.com/HoglundAnalytics/haa-css-core#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.4.7",
-    "cssnano": "^4.1.10",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-if": "^2.0.2",
-    "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-util": "^3.0.8",
-    "node-sass": "^4.11.0"
-  }
+  "name": "@benjaminrussell.me/haa-css-core",
+  "version": "0.8.0"
 }

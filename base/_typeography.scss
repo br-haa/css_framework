@@ -1,0 +1,135 @@
+@import "../editables/fonts";
+
+h1 {
+    font-size: $base-text-size*4;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: $base-text-size*3;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: $base-text-size*2;
+    margin: 0;
+  }
+  
+  h4 {
+    font-size: $base-text-size*1.5;
+    margin: 0;
+  }
+
+h5 {
+  font-size: $base-text-size*1.3;
+  margin: 0;
+}
+
+  p,ol,ul,input,textarea,button,label {
+    font-size: $base-text-size*1.1;
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: inherit;
+  }
+
+  .ta-l{
+    text-align: left;
+  }
+  .ta-c{
+    text-align: center;
+  }
+
+  .ta-r{
+    text-align: right;
+  }
+
+@media (max-width: $medium-size){
+
+  h1 {
+    font-size: $base-text-size*6;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: $base-text-size*5;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: $base-text-size*4;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: $base-text-size*3;
+    margin: 0;
+  }
+  h5 {
+    font-size:  $base-text-size*2.5;
+    margin: 0;
+  }
+
+  p,ol,ul,input,textarea,button,label {
+    font-size: $base-text-size*2;
+    margin: 0;
+  }
+
+  .m_ta-l{
+    text-align: left;
+  }
+  .m_ta-c{
+    text-align: center;
+  }
+
+  .m_ta-r{
+    text-align: right;
+  }
+
+}
+
+
+  @media (max-width: $small-size){
+
+    h1 {
+        font-size: $base-text-size*8;
+        margin: 0;
+      }
+      
+      h2 {
+        font-size: $base-text-size*7;
+        margin: 0;
+      }
+      
+      h3 {
+        font-size: $base-text-size*6;
+        margin: 0;
+      }
+      
+      h4 {
+        font-size: $base-text-size*5;
+        margin: 0;
+      }
+    h5 {
+      font-size: $base-text-size*4.5;
+      margin: 0;
+    }
+
+      p,ol,ul,input,textarea,button,label {
+        font-size: $base-text-size*4;
+        margin: 0;
+      }
+
+
+    .s_ta-l{
+      text-align: left;
+    }
+    .s_ta-c{
+      text-align: center;
+    }
+    .s_ta-r{
+      text-align: right;
+    }
+  }

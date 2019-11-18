@@ -1,10 +1,3 @@
-#header {
-  padding-top: 20px;
-  margin-top: -10px;
-  position:relative;
-  width: 100%;
-  margin-bottom: $default-gap;
-}
 
 .wrapper {
     display: grid;
@@ -18,6 +11,7 @@
   .grid{
     @include second-width;
     display: grid;
+    justify-self: center;
   }
 
   .c-gaped {
