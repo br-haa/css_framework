@@ -1,16 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Roboto:400,700&display=swap');
+@import "variables";
+$base-text-size: 1.1vw;
 
-$base-text-size: 0.8vw;
 
-$font1:'Roboto Slab', serif;
-$font2: 'Raleway', sans-serif;
+$font1:'Crimson Text', serif;
+$font2: 'Roboto', sans-serif;
 
 h1, h2, h3, h4, h5{
   font-family: $font1;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 p,ol,ul,input,textarea,button,a,label{
   font-family: $font2;
 }
 
+:root{
+  --stored-text-size: 1.1vw;
+  --base-text-size: var(--stored-text-size);
+  @media (max-width: $medium-size) {
+    --base-text-size: calc(var(--stored-text-size)*1.5);
+  }
+  @media (max-width: $small-size) {
+    --base-text-size: calc(var(--stored-text-size)*2.5);
+  }
+}

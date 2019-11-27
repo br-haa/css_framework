@@ -26,7 +26,32 @@
     grid-row-gap: $default-gap;
     grid-column-gap: $default-gap;
   }
-  
+
+.c-gaped-s {
+  grid-column-gap: $small-gap;
+}
+
+.r-gaped-s {
+  grid-row-gap: $small-gap;
+}
+
+.gaped-s {
+  grid-row-gap: $small-gap;
+  grid-column-gap: $small-gap;
+}
+
+.c-gaped-l {
+  grid-column-gap: $large-gap;
+}
+
+.r-gaped-l {
+  grid-row-gap: $large-gap;
+}
+
+.gaped-l {
+  grid-row-gap: $large-gap;
+  grid-column-gap: $large-gap;
+}
   
 
   
