@@ -1,6 +1,9 @@
 @import "editables/variables";
 @import "editables/mixins";
-
+@import "base/reset";
+@import "editables/variables";
+@import "base/typeography";
+@import "editables/mixins";
 /*--------------------------------------------------------------------------------------------------------- grid start*/
 @import "grid/placement/position";
 @import "grid/structure/column-permutations";
@@ -10,14 +13,6 @@
 @import "grid/placement/span-column";
 @import "grid/placement/span-row";
 /*----------------------------------------------------------------------------------------------------------- grid end*/
-
-
-
-
-
-/*-------------------------------------------------------------------------------------------------------- ect for now*/
-@import "styles/test-items";
-/*-------------------------------------------------------------------------------------------------------- ect for now*/
 
 /*-------------------------------------------------------------------------------------------------------- items start*/
 @import "items/hide";

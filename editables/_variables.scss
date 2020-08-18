@@ -1,5 +1,8 @@
-$accent-color: orange;
-$main-color: blue;
+$accent-color: orange !default;
+$main-color: blue !default;
+
+$font1: serif !default;
+$font2: sans-serif !default;
 
 $default-gap: 1vw;
 $large-gap: $default-gap*2;
