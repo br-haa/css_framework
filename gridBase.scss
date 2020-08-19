@@ -1,9 +1,6 @@
-@import "editables/variables";
-@import "editables/mixins";
+@import "base/variables";
+@import "base/mixins";
 @import "base/reset";
-@import "editables/variables";
-@import "base/typeography";
-@import "editables/mixins";
 /*--------------------------------------------------------------------------------------------------------- grid start*/
 @import "grid/placement/position";
 @import "grid/structure/column-permutations";

@@ -4,15 +4,4 @@ $main-color: blue !default;
 $font1: serif !default;
 $font2: sans-serif !default;
 
-$default-gap: 1vw;
-$large-gap: $default-gap*2;
-$small-gap: $default-gap/2;
-
-$medium-size: 1050px;
-$small-size: 640px;
-
-$second-width: 85%;
-$second-width-mid: 90%;
-$second-width-small: 95%;
-
-$default-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.66), 0px 0px 5px 3px rgba(0, 0, 0, 0.36), 0px 0px 3px 1px rgba(0, 0, 0, 0.76);
+$default-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.66), 0px 0px 5px 3px rgba(0, 0, 0, 0.36), 0px 0px 3px 1px rgba(0, 0, 0, 0.76) !default;;
