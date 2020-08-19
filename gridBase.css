@@ -7159,8 +7159,6 @@ template {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  background-color: snow;
-  color: #494949;
   padding: 0.5vw 0 0.5vw 0;
 }
 
