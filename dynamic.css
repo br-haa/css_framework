@@ -2,10 +2,12 @@
 h1, h2, h3, h4, h5 {
   font-family: serif;
   font-weight: 600;
+  color: #131313;
 }
 
 p, ol, ul, input, textarea, button, a, label {
   font-family: sans-serif;
+  color: #131313;
 }
 
 :root {
@@ -161,10 +163,12 @@ a {
 h1, h2, h3, h4, h5 {
   font-family: serif;
   font-weight: 600;
+  color: #131313;
 }
 
 p, ol, ul, input, textarea, button, a, label {
   font-family: sans-serif;
+  color: #131313;
 }
 
 :root {

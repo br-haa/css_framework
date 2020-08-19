@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47581cb8-d250-4413-9ad3-667332504c72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/_typeography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/editables/_typeography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic.css" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/editables/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editables/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/base/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/editables/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridBase.css" beforeDir="false" afterPath="$PROJECT_DIR$/gridBase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridBase.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/gridBase.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridBase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/gridBase.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +71,7 @@
       <workItem from="1584036755889" duration="28000" />
       <workItem from="1584036798589" duration="530000" />
       <workItem from="1597786335889" duration="672000" />
-      <workItem from="1597841777363" duration="1492000" />
+      <workItem from="1597841777363" duration="2186000" />
     </task>
     <servers />
   </component>
