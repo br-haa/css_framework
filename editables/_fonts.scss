@@ -6,12 +6,10 @@ $base-text-size: 1.1vw !default;
 h1, h2, h3, h4, h5{
   font-family: $font1;
   font-weight: 600;
-  color: $text-color;
 }
 
 p,ol,ul,input,textarea,button,a,label{
   font-family: $font2;
-  color: $text-color;
 }
 
 :root{

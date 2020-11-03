@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47581cb8-d250-4413-9ad3-667332504c72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/grid/structure/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/grid/structure/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridBase.css" beforeDir="false" afterPath="$PROJECT_DIR$/gridBase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridBase.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/gridBase.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic.css" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/editables/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/editables/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +72,13 @@
       <workItem from="1584036755889" duration="28000" />
       <workItem from="1584036798589" duration="530000" />
       <workItem from="1597786335889" duration="672000" />
-      <workItem from="1597841777363" duration="2378000" />
+      <workItem from="1597841777363" duration="4791000" />
+      <workItem from="1598361714133" duration="631000" />
+      <workItem from="1598365190877" duration="7000" />
+      <workItem from="1598543080560" duration="4741000" />
+      <workItem from="1599594408097" duration="1430000" />
+      <workItem from="1604423951104" duration="77000" />
+      <workItem from="1604424046707" duration="1334000" />
     </task>
     <servers />
   </component>
@@ -89,6 +98,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1254" y="-824" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599679318852">
+      <screen x="614" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1254" y="-824" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/614.-1080.1920.1040/1920.0.1920.1040@614.-1080.1920.1040" timestamp="1599679318852" />
     <state x="627" y="298" key="EditFileWatcherDialog" timestamp="1597842371845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
